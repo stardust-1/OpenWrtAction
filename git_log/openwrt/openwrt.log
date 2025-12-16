@@ -2,14 +2,13 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-7f4272dc18|Hauke Mehrtens|Tue Dec 16 01:22:26 2025 +0100|libcap: Revert "libcap: update to 2.77"
-81d7d379c7|Martin Nadvornik|Mon Dec 15 16:54:52 2025 +0100|mediatek: fix IPv4 address missing on interface in failsafe mode for cudy ap3000-v1
-7c4da36cf2|Rany Hany|Mon Oct 27 16:14:22 2025 +0000|wifi-scripts: ucode: improve formatting of expected throughput
-c743099fe1|Rany Hany|Sat Nov 29 00:04:09 2025 +0000|wifi-scripts: add support for using list for iface in wifi-station/vlan
-b13c6a732a|Rany Hany|Sat Nov 29 12:37:22 2025 +0200|wifi-scripts: fix broken match all case for wifi-vlan
-87fd61bd02|Robert Marko|Mon Dec 15 09:54:23 2025 +0100|ipq-wifi: update to Git HEAD (2025-12-15)
-ec22ac9401|Shiji Yang|Fri Dec 12 08:32:56 2025 +0800|kernel: rtl836x: remove legacy platform_data support
-bcbf4bd8ac|Markus Stockhausen|Sun Dec 14 10:07:38 2025 +0100|realtek: use devm_kzalloc() for serdes debugfs setup
-77b47f33e5|Markus Stockhausen|Sun Dec 14 10:03:47 2025 +0100|realtek: cleanup debugfs creation in serdes driver
-a53655ed14|Markus Stockhausen|Sun Dec 14 09:53:49 2025 +0100|realtek: simplify backing serdes calculation
+86ebe649c2|Christoph Krapp|Sat Nov 22 22:34:04 2025 +0100|ipq40xx: convert Orbi led labels to function/color
+ce54f6e893|Christoph Krapp|Sat Nov 22 20:42:33 2025 +0100|ipq40xx: fix second 5ghz radio on Netgear RBx40
+368c9c0c99|Christoph Krapp|Sat Nov 22 20:40:49 2025 +0100|ipq-wifi: add entry for Netgear RBK40
+d4274a10f6|Christoph Krapp|Sat Nov 22 20:25:29 2025 +0100|ipq40xx: fix Netgear RBR40 wan mac
+8e5cdd84eb|Christoph Krapp|Sat Nov 22 20:20:14 2025 +0100|ipq40xx: split orbi devices in router and satellite
+872fd1f0b6|Robert Marko|Tue Dec 16 10:27:34 2025 +0100|ipq-wifi: update to Git HEAD (2025-12-16)
+d18dfbdcbc|Christoph Krapp|Mon Nov 10 23:44:21 2025 +0100|qualcommax: ipq807x: use ascii-env driver for Linksys MX4200v1
+6d7fbcccac|Mario Andrés Pérez|Sun Dec 14 18:45:10 2025 +0100|sunxi: image: sync target profiles names with DT compatible
+946e43c3d8|Karsten Sperling|Fri Sep 12 15:49:13 2025 +1200|scripts,ipkg-build: Fix error message for invalid package name
 </details>
