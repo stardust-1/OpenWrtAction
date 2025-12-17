@@ -2,13 +2,22 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-86ebe649c2|Christoph Krapp|Sat Nov 22 22:34:04 2025 +0100|ipq40xx: convert Orbi led labels to function/color
-ce54f6e893|Christoph Krapp|Sat Nov 22 20:42:33 2025 +0100|ipq40xx: fix second 5ghz radio on Netgear RBx40
-368c9c0c99|Christoph Krapp|Sat Nov 22 20:40:49 2025 +0100|ipq-wifi: add entry for Netgear RBK40
-d4274a10f6|Christoph Krapp|Sat Nov 22 20:25:29 2025 +0100|ipq40xx: fix Netgear RBR40 wan mac
-8e5cdd84eb|Christoph Krapp|Sat Nov 22 20:20:14 2025 +0100|ipq40xx: split orbi devices in router and satellite
-872fd1f0b6|Robert Marko|Tue Dec 16 10:27:34 2025 +0100|ipq-wifi: update to Git HEAD (2025-12-16)
-d18dfbdcbc|Christoph Krapp|Mon Nov 10 23:44:21 2025 +0100|qualcommax: ipq807x: use ascii-env driver for Linksys MX4200v1
-6d7fbcccac|Mario Andrés Pérez|Sun Dec 14 18:45:10 2025 +0100|sunxi: image: sync target profiles names with DT compatible
-946e43c3d8|Karsten Sperling|Fri Sep 12 15:49:13 2025 +1200|scripts,ipkg-build: Fix error message for invalid package name
+fe1b06f725|Hauke Mehrtens|Mon Dec 15 02:02:35 2025 +0100|kernel: Fix boot of realtek rtl838x
+0669972095|John Audia|Wed Dec 10 15:19:42 2025 -0500|kernel: bump 6.12 to 6.12.62
+74247287ad|Hauke Mehrtens|Wed Dec 17 00:06:24 2025 +0100|uboot-sunxi: fix u-boot build
+c432647d18|Rany Hany|Mon Dec 15 19:11:24 2025 +0200|wifi-scripts: update phys after rename_phy_by_name call
+88ab3205fe|Jonas Jelonek|Tue Dec 16 12:06:57 2025 +0000|realtek: mdio-serdes: use correct device table identifier
+c870f16350|Jonas Jelonek|Thu Dec 11 23:33:59 2025 +0000|realtek: pcs: move polarity into SerDes struct
+4d86ac6401|Jonas Jelonek|Sat Dec 13 10:48:52 2025 +0000|realtek: pcs: drop unneeded SerDes number range checks
+d2a34744fe|Jonas Jelonek|Sat Dec 13 20:12:13 2025 +0000|realtek: pcs: make use of SerDes struct in set_autoneg
+cf03520c71|Jonas Jelonek|Thu Dec 11 21:42:38 2025 +0000|realtek: pcs: make use of SerDes struct in SerDes setup
+0fe7f97896|Jonas Jelonek|Sat Dec 13 20:01:03 2025 +0000|realtek: pcs: switch to id from SerDes struct
+6f98353eec|Jonas Jelonek|Sat Dec 13 10:29:56 2025 +0000|realtek: pcs: assign SerDes reference upon PCS creation
+01cfdb1610|Jonas Jelonek|Sat Dec 13 10:16:21 2025 +0000|realtek: pcs: add helpers for even, odd, neighbor SerDes
+40201e7f73|Jonas Jelonek|Sat Dec 13 10:12:35 2025 +0000|realtek: pcs: add separate SerDes struct
+b9e5803d04|Jonas Jelonek|Sat Dec 13 09:10:55 2025 +0000|realtek: pcs: use per-variant SerDes count
+d8b1a54c78|Jonas Jelonek|Thu Dec 11 19:17:26 2025 +0000|realtek: pcs: add dedicated enum for SerDes modes
+
+.....................
+
 </details>
